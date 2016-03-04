@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#25b6ed"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/bangongshanchuib"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shanchu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="新建公告"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e3e3"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff">
+           </LinearLayout>
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:maxLines="1"
+            android:layout_marginTop="10dp"
+            android:hint="正标题"
+            android:background="#ffffff"
+           />
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:hint="副标题"
+            android:background="#ffffff"
+           />
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="8"
+            android:hint="正文"
+            android:gravity="top"
+            android:background="#ffffff"
+           />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff">
+            <Button 
+                android:id="@+id/shangchuanfujian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="上传附件"
+                android:textColor="#0000ff"
+                android:gravity="left|center_vertical"
+                android:drawableLeft="@drawable/t0128547f8f7a3d2558"
+                android:background="#ffffff"/>
+           </LinearLayout>
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#25b6ed"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

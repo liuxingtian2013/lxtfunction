@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="argb_ff858585">#ff858585</color>
+    <color name="argb_ff66cc00">#ff66cc00</color>
+    <color name="grid_line">#ffcccccc</color>
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="rgb_ff0033">#ff0033</color>
+    <color name="rgb_ffffff">#ffffff</color>
+    <color name="transparent">#ffffffff</color>
+    <color name="rgb_33ff00">#33ff00</color>
+
+</resources>

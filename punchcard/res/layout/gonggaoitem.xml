@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+         android:paddingBottom="5dp"
+        android:orientation="vertical">
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <TextView 
+            android:id="@+id/tv_gonggaoitem_sign"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:singleLine="true"
+            android:textSize="50px"/>
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+        <TextView 
+            android:id="@+id/tv_gonggaoitem_text"
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:maxLines="3"
+            android:textSize="35px"
+            android:textColor="#333333"/>
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+         <TextView 
+            android:id="@+id/tv_gonggaoitem_time"
+            android:layout_width="wrap_content"
+            android:layout_height="45px"
+            android:textColor="#333333"
+            android:layout_gravity="right"
+            android:text="显示时间"
+            android:textSize="35px"/>
+    </LinearLayout>
+
+</LinearLayout>
